@@ -7,6 +7,9 @@ software: PyCharm
 Description:
     pNormalLineEdit.setPlaceholderText('Normal')
         设置没有填写的时候显示的文字
+    flo.addRow('Normal', pNormalLineEdit):
+        等同于在LineEdit元件前加了一个Label.
+    当我们使用绝对位置进行LineEdit设置时，我们需要提前加上Label.
 """
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLineEdit, QFormLayout
