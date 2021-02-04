@@ -10,7 +10,7 @@ Description:
 import sys
 
 from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton
-from MyMplCanvas import PlotCanvas
+from myMplCanvas import PlotCanvas
 
 
 class App(QMainWindow):
