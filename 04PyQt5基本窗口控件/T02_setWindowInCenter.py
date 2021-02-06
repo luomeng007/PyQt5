@@ -11,7 +11,7 @@ Description:
     QDesktopWidget().screenGeometry():
         get the size of screen
     size = self.geometry():
-        get tge size of QWidget
+        get the size of QWidget
     self.move(int((screen.width() - size.width()) / 2), int((screen.height() - size.height()) / 2))：
         move window to center of screen
 """
